@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "type": "owner",
+      "name": "Marcos Willian",
+      "email": "marcos@example.com",
+      "password": "123456",
+      "photo": "https://example.com/marcos.jpg",
+      "age": 26,
+      "birthday": "1997-01-01",
+      "cpf": "123.456.789-00",
+      "inns": [
+        {
+          "id_inns": 1,
+          "name": "Flor Bela",
+          "location": "São Paulo",
+          "rooms": 6,
+          "living_room": true,
+          "kitchen": true,
+          "bathrooms": 1,
+          "yard": true,
+          "photos": [
+            "https://example.com/Pousada-a-1.jpg",
+            "https://example.com/Pousada-a-2.jpg"
+          ],
+          "amenities": [
+            "AC",
+            "TV",
+            "Pool",
+            "view",
+            "Accessibility",
+            "King size bed",
+            "WiFi"
+          ],
+          "description": "Pousada Flor Bela fica localizada no Interior de São Paulo e contem uma das melhores experiencias, seu clima agradevel e calmo, acessibilidade e conforto para ter um otimo aproveitamento."
+        },
+        {
+          "id_inns": 2,
+          "name": "Raiz Recanto",
+          "location": "Rio de Janeiro",
+          "rooms": 3,
+          "living_room": true,
+          "kitchen": true,
+          "bathrooms": 1,
+          "yard": true,
+          "photos": [
+            "https://example.com/Pousada-b-1.jpg",
+            "https://example.com/Pousada-b-2.jpg"
+          ],
+          "amenities": [
+            "AC",
+            "TV",
+            "Accessibility",
+            "Queen size bed",
+            "WiFi"
+          ],
+          "description": "Pousada Raiz Recanto fica localizada no Rio de Janeiro e contem uma das melhores experiencias, seu clima agradevel e calmo, acessibilidade e conforto para ter um otimo aproveitamento. Reserve agora conosco as suas ferias e ganhe um Kit de boas vindas."
+        }
+      ],
+      "hotels": [
+        {
+          "id_hotel": 1,
+          "name": "Hotel A",
+          "location": "Belo Horizonte",
+          "rooms": 50,
+          "living_room": true,
+          "kitchen": true,
+          "bathrooms": 2,
+          "yard": true,
+          "photos": [
+            "https://example.com/hotel-a-1.jpg",
+            "https://example.com/hotel-a-2.jpg"
+          ],
+          "amenities": [
+            "AC",
+            "Jacuzzi",
+            "BBQ",
+            "TV",
+            "Pool",
+            "Beach view",
+            "24h restaurant",
+            "Playground",
+            "Accessibility",
+            "King size bed",
+            "WiFi",
+            "Safe"
+          ],
+          "description": "O Hotel A é um luxuoso hotel localizado em Belo Horizonte. Possui 50 quartos com todas as comodidades que você precisa para uma estadia confortável. O hotel também possui sala de estar, cozinha e múltiplos banheiros. O quintal é perfeito para atividades ao ar livre. O hotel oferece uma variedade de comodidades, incluindo ar condicionado, jacuzzi, churrasqueira, TV, piscina, vista para a praia, restaurante 24h, playground, acessibilidade, cama king size, Wi-Fi e cofre. O hotel também possui belas fotos de suas instalações e arredores. Reserve a sua estadia no Hotel A e viva uma experiência inesquecível!"
+        },
+        {
+          "id_hotel": 2,
+          "name": "Hotel B",
+          "location": "Porto Alegre",
+          "rooms": 40,
+          "living_room": false,
+          "kitchen": false,
+          "bathrooms": 1,
+          "yard": false,
+          "photos": [
+            "https://example.com/hotel-b-1.jpg"
+          ],
+          "amenities": [
+            "AC",
+            "Jacuzzi",
+            "BBQ",
+            "TV",
+            "Pool",
+            "24h restaurant",
+            "Playground",
+            "Accessibility",
+            "King size bed",
+            "WiFi",
+            "Safe"
+          ],
+          "description": "O Hotel B é um Famoso hotel localizado no Rio de Janeiro. Possui 40 quartos com todas as comodidades necessárias para uma estadia confortável. O hotel oferece uma variedade de comodidades, incluindo ar condicionado, jacuzzi, churrasqueira, TV, piscina, vista agradavel, restaurante 24h, playground, acessibilidade, cama king size, Wi-Fi e cofre. O hotel também possui belas fotos de suas instalações e arredores. Reserve a sua estadia no Hotel B e viva uma experiência inesquecível!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "guest",
+      "name": "Dafiny Silva",
+      "email": "dafiny@gmail.com",
+      "password": "123456x",
+      "photo": "https://example.com/dafiny.jpg",
+      "age": 19,
+      "birthday": "2003-02-06",
+      "cpf": "123.456.789-00"
+    },
+    {
+      "id": 3,
+      "type": "guest",
+      "name": "Willian",
+      "email": "willian@hotmail.com",
+      "password": "123456w",
+      "photo": "https://example.com/willian.jpg",
+      "age": 18,
+      "birthday": "2005-02-06",
+      "cpf": "123.456.789-00"
+    }
+  ],
+  "reservations": [
+    {
+      "id_reservation": 1,
+      "user_id": 1,
+      "user": "Dafiny Silva",
+      "hotel": "Hotel A",
+      "room_number": 1,
+      "check_in": "2022-01-01",
+      "check_out": "2022-01-05"
+    },
+    {
+      "id_reservation": 2,
+      "user_id": 1,
+      "user": "Dafiny Silva",
+      "hotel": "Hotel B",
+      "room_number": 2,
+      "check_in": "2023-01-01",
+      "check_out": "2023-01-05"
+    },
+    {
+      "id_reservation": 3,
+      "user_id": 1,
+      "user": "Dafiny Silva",
+      "inns": "Flor Bela",
+      "room_number": 6,
+      "check_in": "2023-01-06",
+      "check_out": "2023-01-07"
+    }
+  ]
+}
