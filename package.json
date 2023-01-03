@@ -1,12 +1,24 @@
 {
   "name": "json-server---estao-servidos---copia",
   "version": "1.0.0",
-  "description": "",
+  "description": "servidor json",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosmwx/JsonServer.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/marcosmwx/JsonServer/issues"
+  },
+  "homepage": "https://github.com/marcosmwx/JsonServer#readme",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
 }
